@@ -1,0 +1,32 @@
+{
+    "adult": false,
+    "backdrop_path": null,
+    "belongs_to_collection": null,
+    "budget": 0,
+    "genres": [],
+    "homepage": "",
+    "id": 715707,
+    "imdb_id": null,
+    "original_language": "en",
+    "original_title": "Ras",
+    "overview": "A massive earthfall threatens to destroy everything in its path, but chaos and destruction can allow the seed to a new beginning to grow.",
+    "popularity": 0.0,
+    "poster_path": null,
+    "production_companies": [],
+    "production_countries": [
+        {
+            "iso_3166_1": "NO",
+            "name": "Norway"
+        }
+    ],
+    "release_date": "2020-06-10",
+    "revenue": 0,
+    "runtime": 6,
+    "spoken_languages": [],
+    "status": "Released",
+    "tagline": "",
+    "title": "Earthfall",
+    "video": false,
+    "vote_average": 0.0,
+    "vote_count": 0
+}

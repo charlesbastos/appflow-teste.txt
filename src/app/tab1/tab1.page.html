@@ -1,0 +1,55 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Feeds de Notícias
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+<!-- Cópia para o slide 5 -->
+ <ion-content [fullscreen] = "true">
+  <h2>Olá  turma</h2>
+  <p>
+    Primeiro projeto ionic para disciplina desenvolvimento 
+    Móvel
+  </p>
+
+<!-- fab placed to the bottom start  
+  Posição vertical: "bottom" , "center" | "top" , |Deve usar fixed
+  Posição horizontal: "center" , "end" , "start" , undefined
+  Tipos: arrow-back-circle arrow-up-circle add person settings exit share -->
+<ion-fab vertical="bottom" horizontal="end" slot="fixed">
+  <ion-fab-button size="small" color="dark" (click)="sair()">
+    <ion-icon name="share"></ion-icon>
+  </ion-fab-button>
+  <ion-fab-list side="top">
+    <ion-fab-button><ion-icon name="logo-vimeo"></ion-icon></ion-fab-button>
+  </ion-fab-list>
+  <ion-fab-list side="bottom">
+    <ion-fab-button><ion-icon name="logo-facebook"></ion-icon></ion-fab-button>
+  </ion-fab-list>
+  <ion-fab-list side="start">
+    <ion-fab-button><ion-icon name="logo-instagram"></ion-icon></ion-fab-button>
+  </ion-fab-list>
+  <ion-fab-list side="end">
+    <ion-fab-button><ion-icon name="logo-twitter"></ion-icon></ion-fab-button>
+  </ion-fab-list>
+</ion-fab>
+
+
+</ion-content>
+
+
+
+<!--  Para o slide 5  descarte do app
+  ion-content [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Tab 1</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <app-explore-container name="Tab 1 page"></app-explore-container>
+</ion-content>
+-->
