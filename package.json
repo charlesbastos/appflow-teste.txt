@@ -1,4 +1,5 @@
 {
+  "build": "ionic-app-scripts build --prod",
   "name": "myApp",
   "version": "0.0.1",
   "author": "Ionic Framework",
